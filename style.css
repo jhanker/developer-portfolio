@@ -9,7 +9,7 @@ h1{
 .orange-bg{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -32,13 +32,43 @@ section{
 .link-button a{
     text-decoration: none;
 }
-#top-banner{
+.top-banner{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
 }
-#dream-big{
+.dream-big{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 5%;
+}
+.experience-items{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding:  1%;
+}
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+  
+}
+.experience-area{
+
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(232, 166, 42),tomato);
+    border-image-slice: 1;
+}
+#web-dev-experience0-learning{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(13, 0, 255),rgb(71, 206, 255));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
